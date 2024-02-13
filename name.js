@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('type').addEventListener('change', function (eventData) {
         let nameOutput = document.getElementById('nameOutput');
 
-        let info = document.getElementById('info');
-        info.innerText = eventData.target.value;
+        // let info = document.getElementById('info');
+        // info.innerText = eventData.target.value;
         changeCert(eventData.target.value);
     });
 
@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
         formData = Object.fromEntries(formData);
 
         let nameOutput = document.getElementById('nameOutput');
-        let info = document.getElementById('info');
+        // let info = document.getElementById('info');
         nameOutput.innerText = formData.name;
-        info.innerText = formData.type;
+        // info.innerText = formData.type;
 
     });
     console.log("Ready");
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     let theDate = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", day:"numeric"})
-    let dateBox = document.getElementById('theDate');
+    let dateBox = document.getElementById('Date');
     dateBox.innerText = theDate;
 
 
