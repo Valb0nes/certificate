@@ -31,9 +31,9 @@ width: 1225px;
 }
 #Date {
     position: absolute;
-    left: 29%;
-    width: 43%;
-    top: 63%;
+    left: 25%;
+    width: 37%;
+    top: 77%;
     text-align: center;
 }
 .left{
@@ -52,9 +52,9 @@ width: 1225px;
     justify-content: center;
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
-    top: 42%;
-    left: 29%;
-    width: 43%;
+    top: 52%;
+    left: 25%;
+    width: 37%;
 }
 @media print {
     .right {
